@@ -1,0 +1,121 @@
+﻿#header {
+  width: 100%;
+  text-align: center;
+  font-family: Helvetica,sans-serif;
+  font-size: 100%;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+#header li {
+  display: inline; 
+}
+
+#header a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+#header a:hover {
+  background-color: rgb(220,220,220);
+}
+#subheader {
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-family: Helvetica,sans-serif;
+  font-size: 100%;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+#subheader li {
+  display: inline; 
+}
+
+#subheader a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+#subheader a:hover {
+  background-color: rgb(220,220,220);
+}
+#sisukset {
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-family: Helvetica,sans-serif;
+  padding-bottom: 100px;
+}
+#sisukset a {
+  color: black;
+}
+
+#footer {
+  position: fixed;
+  font-family: Helvetica,sans-serif;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background-color: white;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer a:hover {
+  background-color: rgb(220,220,220);
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-family:"Playfair Display",serif;
+}
+.active, .collapsible:hover {
+  background-color: #555;
+}
+.collapsible1 {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-family:"Playfair Display",serif;
+}
+.active, .collapsible1:hover {
+  background-color: #555;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.content1 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  text-align: left;
+}
+#julkaisut img {
+  border: 2px black solid;
+}

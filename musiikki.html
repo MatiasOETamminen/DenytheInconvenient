@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Deny the Inconvenient</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="dtistyle.css">
+
+</head>
+
+<body>
+<div id="header">
+<a href="index.html">
+<img src="img/dti.png" alt="Deny the Inconvenient logo" style="max-width:100%;height:auto;">
+</a>
+<hr>
+
+<p>
+<ul>	
+  <li><a href="historia.html">historia</a></li>
+  <li><a href="musiikki.html">musiikki</a></li>
+<!--
+  <li><a href="tapahtumat.html">tapahtumat</a></li>
+-->
+</ul>
+</p>
+
+<hr>
+</div>
+<div id="subheader">
+<p>
+<ul>	
+  <li><a href="sanoitukset.html">sanoitukset</a></li>
+  <li><a href="musiikki.html">julkaisut</a></li>
+  <li><a href="tabulatuurit.html">tabulatuurit</a></li>
+</ul>
+</p>
+
+<hr>
+</div>
+<div id="sisukset">
+<div id="julkaisut">
+<p><img src="img/denytheinconvenientdemo.png" alt="Deny the Inconvenient demo artwork" style="max-width:100%;height:auto;"></p>
+<p>Deny the Inconvenient (demo)</p>
+<p>23.11.2011</p>
+
+<p><img src="img/mothernature.png" alt="Mother Nature single artwork" style="max-width:100%;height:auto;"></p>
+<p><a href="https://open.spotify.com/album/0nmWSs8bL2zwPD4fGDYx6Y?si=TEhB57JYQxyx79vY_goSaA">Mother Nature</a></p>
+<p>17.12.2012 / 9.6.2017</p>
+
+<p><img src="img/lifemechanisticview.png" alt="Life / Mechanistic View single artwork" style="max-width:100%;height:auto;"></p>
+<p><a href="https://open.spotify.com/album/16g06b1UEptTspSeJgBFNx?si=filF004jQXeocfOD5cR8ow">Life / Mechanistic View</a></p>
+<p>22.7.2016 / 4.6.2017</p>
+</div>
+</div>
+<div id="footer">
+<hr>
+<div id="quote"></div>
+
+<script type="text/javascript">
+
+    var quotes = [
+    "A celebration at the end of the world",
+    "If music be the food of love, play on. We do.",
+	]; 
+    
+    function list() {
+            var text = "";
+			var randomness = Math.floor(Math.random()*quotes.length);
+				text = quotes[randomness];
+				console.log(text)
+			document.getElementById("quote").innerHTML = "<p>" + text + "</p>";
+		}
+		
+	list();
+</script>
+<p>
+  <a href="https://www.facebook.com/denytheinconvenient">Facebook</a> |
+  <a href="https://soundcloud.com/denytheinconvenient">SoundCloud</a> |
+  <a href="https://open.spotify.com/artist/2fA4HCxCO4Nq7hi1sVcBY8?si=0kyJvoJ7S5azkIgUUigYig">Spotify</a>
+</p>
+</div>
+</body>
+</html>
