@@ -7,10 +7,6 @@
   text-transform: uppercase;
 }
 
-#header li {
-  display: inline; 
-}
-
 #header a {
   display: inline-block;
   text-decoration: none;
@@ -24,15 +20,10 @@
 #subheader {
   width: 100%;
   text-align: center;
-  float: left;
   font-family: Helvetica,sans-serif;
   font-size: 100%;
   list-style: none;
   text-transform: uppercase;
-}
-
-#subheader li {
-  display: inline; 
 }
 
 #subheader a {
